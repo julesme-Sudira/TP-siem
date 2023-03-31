@@ -8,6 +8,10 @@ Tested on the below configuration.
 
 * docker:`Docker version 20.10.16, build aa7e414`
 * docker-compose:`Docker version 20.10.16, build aa7e414`
+* run the following command to have a copy of the certificate
+```sh
+docker cp elastic-docker_es01_1:/usr/share/elasticsearch/config/certs/ca/ca.crt .
+```
 
 # Cluster
 
